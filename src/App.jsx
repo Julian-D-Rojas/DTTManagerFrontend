@@ -22,7 +22,7 @@ function App() {
         </button>
         <p className='text-black'>
           Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        </p >
       </div>
       <p className='read-the-docs'>
         Click on the Vite and React logos to learn more
