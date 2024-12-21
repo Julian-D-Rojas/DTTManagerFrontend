@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
+import { Info } from './icons/Info'
 
 export const VideoSection = ({ location }) => {
   return (
     <section
-      className={`place-content-center h-[100vh] w-full relative overflow-hidden ${
-        location.pathname === '/information' ? 'hidden' : 'grid'
-      }`}
+      className={`place-content-center h-[100vh] w-full relative overflow-hidden ${location.pathname === '/information' ? 'hidden' : 'grid'
+        }`}
     >
       <video
         autoPlay
@@ -21,9 +21,9 @@ export const VideoSection = ({ location }) => {
         <h2 className='text-6xl font-bold'>Televisión Digital</h2>
         <Link
           to={'/information'}
-          className='bg-cyan-400 py-1 px-2 rounded-lg w-fit font-bold'
+          className='bg-cyan-400 py-1 px-2 rounded-lg w-fit font-bold flex flex-row items-center'
         >
-          Información
+          <Info /> Información
         </Link>
       </div>
     </section>
