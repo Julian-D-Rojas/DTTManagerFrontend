@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <>
-      <div className=''>
+      <section className='min-h-screen'>
         <h1>Home</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -9,7 +9,7 @@ export const Home = () => {
           mollitia, rem consequatur in! Nisi omnis dolor, provident qui
           asperiores facilis autem!
         </p>
-      </div>
+      </section>
     </>
   )
 }
