@@ -21,7 +21,8 @@ export const VideoSection = ({ location }) => {
         <h2 className='text-6xl font-bold'>Televisión Digital</h2>
         <Link
           to={'/information'}
-          className='bg-cyan-400 py-1 px-2 rounded-lg w-fit font-bold flex flex-row items-center'
+          className='border-2 rounded-[1.5rem] border-black px-2 py-1 rounded-lg w-fit font-bold flex flex-row items-center'
+        // className='bg-cyan-400 py-1 px-2 rounded-lg w-fit font-bold flex flex-row items-center'
         >
           <Info /> Información
         </Link>
